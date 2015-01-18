@@ -109,7 +109,7 @@ median(steps.date$steps)
 ## [1] 10766.19
 ```
 
-There's no significant diferent between mean and median values.
+There's no significant diferences between mean and median values for the two sets of data.
 
 ##Are there differences in activity patterns between weekdays and weekends?
 
