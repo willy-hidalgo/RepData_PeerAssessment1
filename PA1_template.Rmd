@@ -25,7 +25,7 @@ The dataset is stored in a comma-separated-value (CSV) file and there are a tota
 ##Loading and preprocessing data
 Load the data:
 ```{r}
-unzip("repdata_data_activity.zip")
+unzip("activity.zip")
 activity<-read.csv("activity.csv")
 ```
 
