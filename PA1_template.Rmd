@@ -71,12 +71,12 @@ There's no significant diferences between mean and median values for the two set
 
 ##Are there differences in activity patterns between weekdays and weekends?
 
-Using the weekdays() function. Note that for language compatibility, the weekends (i.e. not weekdays()), I include "s?bado" and "domingo", witch are saturday and sunday in spanish.
+Using the weekdays() function. Note that for language compatibility, I include "sábado" and "domingo" in "weekends" (i.e. not "weekdays"), which are saturday and sunday in spanish.
 
 1.Create a new factor variable in the dataset with two levels "weekdays" and "weekends" indicating whether a given date is a weekday or weekend day.
 ```{r}
 daytype <- function(date) {
-  if (weekdays(as.Date(date)) %in% c("domingo", "sunday", "s?bado", "saturday")) {
+  if (weekdays(as.Date(date)) %in% c("domingo", "sunday", "sábado", "saturday")) {
     "weekend"
   } else {
     "weekday"
